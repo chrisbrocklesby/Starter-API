@@ -1,6 +1,6 @@
 const api = require('express').Router();
-const db = require('../db');
-const auth = require('../auth');
+const db = require('../modules/mysql');
+const auth = require('../modules/auth');
 const validator = require('validator');
 
 // LOGIN
